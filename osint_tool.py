@@ -31,7 +31,7 @@ SHERLOCK_DIR = os.path.join(os.getcwd(), "sherlock")
 current_lang = 'en'
 LANGS = {
     'en': {
-        'title': "Osint Tool | Beta v1",
+        'title': "Osint Tool | Version 1.0",
         'menu_1': "1. Sherlock (Nickname)",
         'menu_2': "2. IP Lookup (Target)",
         'menu_3': "3. Phone Lookup",
@@ -53,7 +53,7 @@ LANGS = {
         'done': "[+] Done!"
     },
     'uk': {
-        'title': "Osint Інструмент | Бета v1",
+        'title': "Osint Інструмент | Версія 1.0",
         'menu_1': "1. Sherlock (Нікнейм)",
         'menu_2': "2. IP Lookup (Ціль)",
         'menu_3': "3. Phone Lookup",
@@ -75,7 +75,7 @@ LANGS = {
         'done': "[+] Готово!"
     },
     'ru': {
-        'title': "Osint Инструмент | Бета v1",
+        'title': "Osint Инструмент | Версия 1.0",
         'menu_1': "1. Sherlock (Никнейм)",
         'menu_2': "2. IP Lookup (Цель)",
         'menu_3': "3. Phone Lookup",
