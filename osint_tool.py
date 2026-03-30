@@ -20,6 +20,7 @@ install_requirements()
 import requests
 import whois
 import phonenumbers
+import tomli
 from phonenumbers import carrier, geocoder
 from colorama import Fore, init
 
