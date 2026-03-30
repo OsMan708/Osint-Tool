@@ -7,20 +7,39 @@ import string
 from datetime import datetime
 
 def install_requirements():
-    requirements = ['requests', 'python-whois', 'phonenumbers', 'colorama']
+    requirements = [
+        'requests', 
+        'python-whois', 
+        'phonenumbers', 
+        'colorama', 
+        'tomli', 
+        'sherlock-project'
+    ]
+    
     for lib in requirements:
         try:
-            __import__(lib.replace('python-', ''))
+            if lib == 'sherlock-project':
+                import_name = 'sherlock_project'
+            elif lib == 'python-whois':
+                import_name = 'whois'
+            else:
+                import_name = lib
+                
+            __import__(import_name)
         except ImportError:
             print(f"[*] Installing missing library: {lib}...")
-            subprocess.check_call([sys.executable, "-m", "pip", "install", lib])
+            try:
+                subprocess.check_call([sys.executable, "-m", "pip", "install", lib])
+            except Exception as e:
+                print(f"[!] Failed to install {lib}: {e}")
 
 install_requirements()
 
+import sherlock_project
+import tomli
 import requests
 import whois
 import phonenumbers
-import tomli
 from phonenumbers import carrier, geocoder
 from colorama import Fore, init
 
