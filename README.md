@@ -1,6 +1,7 @@
 # Osint-Tool
 VirusTotal Results: 
 https://www.virustotal.com/gui/file/992889925b109cc24671fe5f46d39185ac46c236d683c03f5695eeeb39b8eb6d?nocache=1
+
 🇬🇧 English
 
 Osint Tool is a versatile console utility for Open Source Intelligence gathering. It features a built-in localization system and pre-integrated modules.
