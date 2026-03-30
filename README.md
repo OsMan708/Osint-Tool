@@ -18,7 +18,7 @@ Osint Tool is a versatile console utility for Open Source Intelligence gathering
 
 🚀 How to Run
 
-    Ensure Python 3.11.9 is installed.
+    Make sure you have Python 3.11.9 or later installed.
 
     Run the tool:
 
@@ -43,7 +43,7 @@ Osint Tool це багатофункціональна консольна ути
 
 🚀 Як запустити
 
-    Переконайтеся, що встановлено Python 3.11.9.
+    Переконайтеся, що встановлено Python 3.11.9 або новіша версія.
 
     Запустіть програму:
 
@@ -68,7 +68,7 @@ Osint Tool это многофункциональная консольная у
 
 🚀 Как запустить
 
-    Убедитесь, что установлен Python 3.11.9.
+    Убедитесь, что установлен Python 3.11.9 или версия новее.
 
     Запустите программу:
 
