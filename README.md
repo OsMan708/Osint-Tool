@@ -20,10 +20,6 @@ Osint Tool is a versatile console utility for Open Source Intelligence gathering
 
     Ensure Python 3.11.9 is installed.
 
-    Install dependencies:
-
-    pip install -r requirements.txt
-
     Run the tool:
 
     python osint_tool.py
@@ -49,10 +45,6 @@ Osint Tool це багатофункціональна консольна ути
 
     Переконайтеся, що встановлено Python 3.11.9.
 
-    Встановіть залежності:
-
-    pip install -r requirements.txt
-
     Запустіть програму:
 
     python osint_tool.py
@@ -77,10 +69,6 @@ Osint Tool это многофункциональная консольная у
 🚀 Как запустить
 
     Убедитесь, что установлен Python 3.11.9.
-    
-    Установите зависимости:
-
-    pip install -r requirements.txt
 
     Запустите программу:
 
@@ -91,8 +79,8 @@ Plaintext
 
 .
 ├── osint_tool.py       # Main script
-├── requirements.txt    # Dependencies
 ├── report.txt          # Saved logs
+├── LICENSE             # MIT License
 └── sherlock/           # Pre-installed Sherlock module
 
 ⚠️ Disclaimer
